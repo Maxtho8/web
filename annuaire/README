@@ -1,0 +1,21 @@
+Annuaire en React native 
+
+Pour l'utiliser : 
+
+  import Annuaire from './Annuaire'
+  
+  <Annuaire data={
+            [
+                {letter:"A",names:[{name:"Adreas"},{name:"Amandine"},{name:"Antoine"}]},
+                {letter:"B",names:[{name:"Bastien"}]},
+                {letter:"J",names:[{name:"Jacques"},{name:"Jerome"}]},
+                {letter:"M",names:[{name:"Malek"},{name:"Maxime"},{name:"Mehdi"}]},
+                {letter:"N",names:[{name:"Natacha"},{name:"Nicolas"}]},
+                {letter:"Z",names:[{name:"Zoé"}]},
+                
+            ]
+        }></Annuaire>
+        
+  Les données envoyées par data doivent être au préalablement triées et classées par lettre
+  
+  
